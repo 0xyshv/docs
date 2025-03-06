@@ -17,6 +17,10 @@
       }
     ]
   },
+  "logo": {
+    "light": "/logo/gop-green.png",
+    "dark": "/logo/gop-white.png"
+  },
   "navbar": {
     "links": [
       {
