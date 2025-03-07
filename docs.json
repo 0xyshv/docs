@@ -22,12 +22,6 @@
     "dark": "/logo/gop-white.png"
   },
   "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:gopdotfun@gmail.com"
-      }
-    ],
     "primary": {
       "type": "button",
       "label": "Bot",
