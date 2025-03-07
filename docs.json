@@ -13,7 +13,7 @@
     "tabs": [
       {
         "tab": "Documentation",
-        "pages": ["introduction", "quickstart", "development"]
+        "pages": ["introduction", "commands", "points", "roadmap", "faqs"]
       }
     ]
   },
