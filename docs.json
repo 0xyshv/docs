@@ -30,7 +30,7 @@
     ],
     "primary": {
       "type": "button",
-      "label": "Dapp",
+      "label": "Bot",
       "href": "https://gameofpots.fun"
     }
   },
