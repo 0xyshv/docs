@@ -6,30 +6,36 @@ description: "Not all tournaments are equal. The Game of Pots offers different t
 ## House of No-Loss **_( 0% loss)_**
 
 - Lords deposit their USDe.
-- Winners take home staking rewards.
+- Winners take home staking rewards and GOP token rewards.
 - No participant loses their principal gold.
+- Stake duration: 7 days to 6 weeks.
 
 ## House of High Stakes **_(10% Loss, 20% Loss)_**
 
 - Warriors wager their USDe in riskier battles.
 - A percentage of the total treasury is claimed by the victors.
 - The remaining sum is returned to the participants.
+- Stake duration: Instant (resolved when pot is full).
 
 <AccordionGroup>
-  <Accordion icon="book" title="Example : House of High Stakes">
-  - 100 noblemen each deposit 10 USDe. Total pot size 1000 USDe.
-  - A 10% loss pot means 100 USDe goes to the victors.
-  - If there are 10 champions, they each receive 20 USDe (10 from deposit + 10 from the pot) + staking rewards.
-
+  <Accordion icon="book" title="Example: House of High Stakes">
+    <ul>
+      <li>100 noblemen each deposit <strong>1 USDe</strong>. Total pot size: <strong>100 USDe</strong>.</li>
+      <li>A <strong>10% loss</strong> pot means <strong>10 USDe</strong> is distributed among the victors.</li>
+      <li>If there are <strong>10 champions</strong>, they each receive <strong>2 USDe</strong> (1 from deposit + 1 from the pot) + staking rewards + GOP token rewards.</li>  
+    </ul>
   </Accordion>
+
   <Accordion icon="book" title="Each pot holds the following sacred metadata">
     <Note>
-```
-{stakingPeriod: , potSize: , sharePerPot:}
-
-```
+      ```json
+      {
+        "potSize": "100 USDe",
+        "NO_OF_SHARES": 100,
+        "potType": "No Loss / High Stakes",
+        "stakingPeriod": "Instant / 7 days - 6 weeks"
+      }
+      ```
     </Note>
-
   </Accordion>
 </AccordionGroup>
-```
